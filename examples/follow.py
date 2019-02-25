@@ -241,7 +241,7 @@ if __name__ == "__main__":
 
     drone = Bebop()
     success = drone.connect(5)
-    #drone.set_picture_format('jpeg')  # 영상 포맷 변경
+    #drone.set_picture_format('jpeg')
     is_bebop = True
 
     if (success):
